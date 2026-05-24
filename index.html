@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Trang Dental Clinic - Nha khoa hiện đại, tận tâm, cung cấp chăm sóc răng miệng toàn diện cho nụ cười khỏe đẹp.">
+    <title>Trang Dental Clinic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-elevated="false">
+      <a class="brand" href="#home" aria-label="Trang Dental Clinic">
+        <span class="brand-mark" aria-hidden="true">T</span>
+        <span>
+          <strong>Trang Dental Clinic</strong>
+          <small data-i18n="brandTag">Nha khoa gia đình</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#services" data-i18n="navServices">Dịch vụ</a>
+        <a href="#about" data-i18n="navAbout">Về chúng tôi</a>
+        <a href="#process" data-i18n="navProcess">Quy trình</a>
+        <a href="#contact" data-i18n="navContact">Liên hệ</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="language-switch" aria-label="Language">
+          <button class="lang-button is-active" type="button" data-lang="vi">VI</button>
+          <button class="lang-button" type="button" data-lang="en">EN</button>
+        </div>
+        <a class="header-cta" href="#contact" data-i18n="bookNow">Đặt lịch</a>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <a href="#services" data-i18n="navServices">Dịch vụ</a>
+      <a href="#about" data-i18n="navAbout">Về chúng tôi</a>
+      <a href="#process" data-i18n="navProcess">Quy trình</a>
+      <a href="#contact" data-i18n="navContact">Liên hệ</a>
+    </nav>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="heroEyebrow">Chăm sóc nụ cười với sự tận tâm</p>
+          <h1 data-i18n="heroTitle">Trang Dental Clinic</h1>
+          <p class="hero-copy" data-i18n="heroCopy">
+            Nha khoa hiện đại, nhẹ nhàng và minh bạch cho cả gia đình. Chúng tôi đồng hành từ thăm khám định kỳ đến phục hình thẩm mỹ để bạn tự tin hơn mỗi ngày.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#contact" data-i18n="heroPrimary">Đặt lịch tư vấn</a>
+            <a class="secondary-button" href="#services" data-i18n="heroSecondary">Xem dịch vụ</a>
+          </div>
+        </div>
+        <div class="hero-stats" aria-label="Clinic highlights">
+          <div>
+            <strong data-i18n="statOneValue">6+</strong>
+            <span data-i18n="statOneLabel">Nhóm dịch vụ</span>
+          </div>
+          <div>
+            <strong data-i18n="statTwoValue">1:1</strong>
+            <span data-i18n="statTwoLabel">Tư vấn cá nhân</span>
+          </div>
+          <div>
+            <strong data-i18n="statThreeValue">VN/EN</strong>
+            <span data-i18n="statThreeLabel">Hỗ trợ song ngữ</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro band">
+        <div class="section-grid">
+          <div>
+            <p class="section-kicker" data-i18n="introKicker">Điểm khác biệt</p>
+            <h2 data-i18n="introTitle">Một trải nghiệm nha khoa rõ ràng, nhẹ nhàng và đáng tin cậy.</h2>
+          </div>
+          <p data-i18n="introCopy">
+            Từ bước chẩn đoán đến kế hoạch điều trị, đội ngũ Trang Dental Clinic ưu tiên giải thích dễ hiểu, lựa chọn phù hợp và theo dõi kỹ lưỡng sau mỗi cuộc hẹn.
+          </p>
+        </div>
+      </section>
+
+      <section class="services section" id="services">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="servicesKicker">Dịch vụ</p>
+          <h2 data-i18n="servicesTitle">Chăm sóc toàn diện cho nụ cười khỏe đẹp.</h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">01</span>
+            <h3 data-i18n="serviceOneTitle">Khám và vệ sinh răng</h3>
+            <p data-i18n="serviceOneCopy">Kiểm tra tổng quát, cạo vôi, đánh bóng và tư vấn thói quen chăm sóc răng miệng hằng ngày.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">02</span>
+            <h3 data-i18n="serviceTwoTitle">Nha khoa thẩm mỹ</h3>
+            <p data-i18n="serviceTwoCopy">Tẩy trắng, veneer và các giải pháp cải thiện hình thể răng với kế hoạch phù hợp khuôn mặt.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">03</span>
+            <h3 data-i18n="serviceThreeTitle">Chỉnh nha</h3>
+            <p data-i18n="serviceThreeCopy">Tư vấn niềng răng và khay trong suốt, theo dõi tiến trình định kỳ để tối ưu khớp cắn.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">04</span>
+            <h3 data-i18n="serviceFourTitle">Phục hình răng</h3>
+            <p data-i18n="serviceFourCopy">Mão, cầu răng và phục hồi chức năng ăn nhai với vật liệu được lựa chọn theo từng trường hợp.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">05</span>
+            <h3 data-i18n="serviceFiveTitle">Điều trị tổng quát</h3>
+            <p data-i18n="serviceFiveCopy">Trám răng, điều trị tủy, chăm sóc nướu và xử lý các vấn đề răng miệng thường gặp.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">06</span>
+            <h3 data-i18n="serviceSixTitle">Nha khoa trẻ em</h3>
+            <p data-i18n="serviceSixCopy">Không gian thân thiện, hướng dẫn nhẹ nhàng để trẻ hình thành thói quen chăm sóc răng sớm.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="about band" id="about">
+        <div class="about-layout">
+          <div class="about-copy">
+            <p class="section-kicker" data-i18n="aboutKicker">Về phòng khám</p>
+            <h2 data-i18n="aboutTitle">Tập trung vào sự thoải mái, an toàn và kết quả bền vững.</h2>
+            <p data-i18n="aboutCopy">
+              Trang Dental Clinic xây dựng quy trình thăm khám minh bạch, phòng điều trị sạch sẽ và đội ngũ luôn lắng nghe nhu cầu của từng khách hàng.
+            </p>
+          </div>
+          <div class="feature-list">
+            <div>
+              <h3 data-i18n="featureOneTitle">Tư vấn dễ hiểu</h3>
+              <p data-i18n="featureOneCopy">Giải thích tình trạng, lựa chọn và chi phí dự kiến trước khi điều trị.</p>
+            </div>
+            <div>
+              <h3 data-i18n="featureTwoTitle">Thiết bị hiện đại</h3>
+              <p data-i18n="featureTwoCopy">Hỗ trợ chẩn đoán chính xác và giúp quy trình điều trị thoải mái hơn.</p>
+            </div>
+            <div>
+              <h3 data-i18n="featureThreeTitle">Theo dõi sau điều trị</h3>
+              <p data-i18n="featureThreeCopy">Hướng dẫn chăm sóc tại nhà và nhắc lịch tái khám khi cần thiết.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="process section" id="process">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="processKicker">Quy trình</p>
+          <h2 data-i18n="processTitle">Mỗi cuộc hẹn được thiết kế để bạn luôn biết bước tiếp theo.</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <span>1</span>
+            <h3 data-i18n="stepOneTitle">Lắng nghe nhu cầu</h3>
+            <p data-i18n="stepOneCopy">Ghi nhận vấn đề, mong muốn thẩm mỹ và lịch trình phù hợp của bạn.</p>
+          </article>
+          <article>
+            <span>2</span>
+            <h3 data-i18n="stepTwoTitle">Thăm khám và chẩn đoán</h3>
+            <p data-i18n="stepTwoCopy">Kiểm tra lâm sàng, hình ảnh cần thiết và đánh giá tình trạng răng miệng.</p>
+          </article>
+          <article>
+            <span>3</span>
+            <h3 data-i18n="stepThreeTitle">Lập kế hoạch điều trị</h3>
+            <p data-i18n="stepThreeCopy">Trao đổi phương án, thời gian, chi phí dự kiến và thứ tự ưu tiên.</p>
+          </article>
+          <article>
+            <span>4</span>
+            <h3 data-i18n="stepFourTitle">Chăm sóc và theo dõi</h3>
+            <p data-i18n="stepFourCopy">Thực hiện điều trị, hướng dẫn chăm sóc và hẹn tái khám phù hợp.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact band" id="contact">
+        <div class="contact-layout">
+          <div>
+            <p class="section-kicker" data-i18n="contactKicker">Liên hệ</p>
+            <h2 data-i18n="contactTitle">Sẵn sàng chăm sóc nụ cười của bạn.</h2>
+            <p data-i18n="contactCopy">
+              Gửi yêu cầu đặt lịch, câu hỏi về dịch vụ hoặc thông tin cần tư vấn. Phòng khám sẽ phản hồi trong thời gian sớm nhất.
+            </p>
+            <div class="contact-info">
+              <a href="tel:+84000000000" data-i18n="phoneLabel">Điện thoại: cập nhật số hotline</a>
+              <a href="mailto:hello@trangdentalclinic.com">hello@trangdentalclinic.com</a>
+              <span data-i18n="addressLabel">Địa chỉ: cập nhật địa chỉ phòng khám</span>
+            </div>
+          </div>
+
+          <form class="appointment-form" id="appointment-form">
+            <label>
+              <span data-i18n="formName">Họ và tên</span>
+              <input name="name" type="text" autocomplete="name" required>
+            </label>
+            <label>
+              <span data-i18n="formPhone">Số điện thoại</span>
+              <input name="phone" type="tel" autocomplete="tel" required>
+            </label>
+            <label>
+              <span data-i18n="formService">Dịch vụ quan tâm</span>
+              <select name="service">
+                <option data-i18n="optionGeneral">Khám tổng quát</option>
+                <option data-i18n="optionCosmetic">Nha khoa thẩm mỹ</option>
+                <option data-i18n="optionOrtho">Chỉnh nha</option>
+                <option data-i18n="optionRestorative">Phục hình răng</option>
+              </select>
+            </label>
+            <label>
+              <span data-i18n="formMessage">Ghi chú</span>
+              <textarea name="message" rows="4"></textarea>
+            </label>
+            <button type="submit" data-i18n="formSubmit">Gửi yêu cầu</button>
+            <p class="form-status" aria-live="polite" data-i18n="formStatus">Thông tin sẽ được gửi qua email của bạn.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Trang Dental Clinic.</p>
+      <a href="https://github.com/thutrangr07" target="_blank" rel="noreferrer" data-i18n="githubLink">GitHub hosting</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
